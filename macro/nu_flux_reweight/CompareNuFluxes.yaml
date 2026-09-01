@@ -30,7 +30,7 @@ mode: compare
 # is taken from MCTrack: the primary neutrino, |pdg| matching `flavour` and
 # MotherId == -1.
 root_input:
-  data_dir: /afs/cern.ch/user/s/schuetha/work/public/reweight_function
+  data_dir: ./
   pattern:  stage2.root
 
   # Number of per-job files. With indexed: false this no longer selects files,

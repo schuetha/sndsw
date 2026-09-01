@@ -14,7 +14,7 @@
 # `output.label`, and list them in Analysis.yaml (or pass them with -rc).
 #
 # Run the diagnostic fit with:
-#     python3 reweighting_function.py -m reweight -rc Config_sibyll.yaml
+#     python3 reweighting_function.py -m reweight -rc Config_epos.yaml
 #
 # Only the four `inputs` paths are mandatory; every other key has a default.
 # =============================================================================
@@ -30,10 +30,10 @@
 #   *_fastsim  -> numerator:   the target model being reweighted TO
 
 inputs:
-  light_dpm:     /eos/user/t/tanansub/SWAN_projects/SND_PLOT/ForBright/events_sampling_light_DPMJET_13p6TeV_500k_XYnew_downward.txt
-  charm_dpm:     /eos/user/t/tanansub/SWAN_projects/SND_PLOT/ForBright/events_sampling_charm_DPMJET_13p6TeV_100k_XYnew_downward.txt
-  light_fastsim: /eos/user/t/tanansub/SWAN_projects/SND_PLOT/ForBright/events_sampling_light_EPOSLHC_13p6TeV_500k_XYnew_downward.txt
-  charm_fastsim: /eos/user/t/tanansub/SWAN_projects/SND_PLOT/ForBright/events_weighted_charm_POWHEG_13p6TeV_100k_downward.txt
+  light_dpm:     /eos/experiment/sndlhc/MonteCarlo/Neutrinos/flux_reweighting/events_sampling_light_DPMJET_13p6TeV_500k_XYnew_downward.txt
+  charm_dpm:     /eos/experiment/sndlhc/MonteCarlo/Neutrinos/flux_reweighting/events_sampling_charm_DPMJET_13p6TeV_100k_XYnew_downward.txt
+  light_fastsim: /eos/experiment/sndlhc/MonteCarlo/Neutrinos/flux_reweighting/events_sampling_light_EPOSLHC_13p6TeV_500k_XYnew_downward.txt
+  charm_fastsim: /eos/experiment/sndlhc/MonteCarlo/Neutrinos/flux_reweighting/events_weighted_charm_POWHEG_13p6TeV_100k_downward.txt
 
 # -----------------------------------------------------------------------------
 # Neutrino flavour entering the ratio

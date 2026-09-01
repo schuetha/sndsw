@@ -124,7 +124,7 @@ class FluxReweighter:
     """
 
     #: PDG codes of the neutrino flavours (matched on |pdg|, so nu and nubar).
-    PID = {"e": 12, "mu": 14, "tau": 16}
+    PID = {"nue": 12, "numu": 14, "nutau": 16}
 
     #: Column layout of the flux text files, in order. POWHEG files append a
     #: trailing 'iEvent' column, added on the fly in :meth:`read_files`.
